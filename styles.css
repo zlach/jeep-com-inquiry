@@ -2,8 +2,119 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+h1{
+    color: #333333;
+    text-align: center;
+    font-size: 5vw;
+}
+
+
+/* nav(from with-bs)*/
+
+.navbar{
+    background-color: black;
+}
+
+.navbar-brand img{
+    height: 25px;
+}
+
+.navbar-toggler{
+    color: white;
+    border: none;
+    font-size: 12px;
+}
+
+.nav-item{
+    color: white;
+    font-size: 12px;
+}
+
+.navbar-nav .nav-item{
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.nav-right{
+    display: flex;
+}
+
+.nav-right a i{
+    padding-left: 8px;
+}
+
+.nav-right i{
+    font-size: 14px;
+}
+
+.navbar-nav i{
+    padding-left: .5vw;
+    padding-right: .2vw;
+    font-size: 1.2vw;
+}
+
+.navbar-nav .link-icon{
+    font-size: .8vw;
+}
+
+.navbar-collapse{
+    justify-content: space-between;
+}
+
+.right-navbar-container{
+	display: flex;
+	align-items: center;
+	margin-right: 30px;
+}
+
+.right-navbar-container a{
+    text-decoration: none;
+}
+
+.spanish{
+	display: flex;
+	align-items: center;
+	padding: 3px 0px;
+	border-left: 1px solid white;
+}
+
+.not-spanish{
+	display: flex;
+	align-items: center;
+}
+
+.not-spanish span{
+    font-size: 1vw;
+    font-weight: 500;
+	color: white;
+	padding-left: 10px;
+}
+
+.spanish span{
+	font-size: 12px;
+    padding-left: 10px;
+    color: white;
+}
+
+.not-spanish i{
+	color: #7f7f7f;
+	padding-left: 20px;
+}
+
+.spanish i{
+	color: #7f7f7f;
+	padding-left: 20px;
+	font-size: 14px;
+}
+
+/* nav above */
+
 form{
     display: flex;
+}
+
+.all-dark{
+    background-color: #212121;
 }
 
 .form-border{
@@ -21,6 +132,178 @@ input:focus{
     outline: none;
 }
 
+select:focus{
+    border: 2px solid #ffba00;
+    outline: none;
+}
+
+textarea:focus{
+    border: 2px solid #ffba00;
+    outline: none;
+}
+
+textarea{
+    width: 50vw;
+}
+
+/* select{
+    padding: 10px;
+} */
+
 input{
     padding: 10px;
+}
+
+.submit-button{
+    width: 188px;
+    margin-top: 22px;
+}
+
+.submit-button button{
+    background-color: #ffba00;
+    border: 2px solid #ffba00;
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    border: none;
+    border-radius: 2px;
+    display: block;
+    padding: 10px;
+}
+
+.submit-button button i{
+    padding-left: 10px;
+}
+
+
+/* search section below */
+
+.search-container{
+    background-color: #212121;
+    padding: 30px;
+}
+
+.search-item{
+    color: #bfbfbf;
+    padding: 10px;
+}
+
+.search-bar input{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 35px;
+}
+
+.search-bar button{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 50%;
+    background-color: #ffba00;
+    color: black;
+    font-weight: 700;
+    border-color: #ffba00;
+    font-size: 12px;
+    height: 35px;
+}
+
+.search-bar button:hover{
+    background-color: #edad01;
+    color: black;
+    border-color: #edad01;
+}
+
+/* search section above */
+
+.accordion{
+    padding: .75rem 1.25rem;
+    background-color: black;
+}
+
+
+footer .card{
+    background-color: black;
+}
+
+.accordion .card{
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+}
+
+.accordion button{
+    color: white;
+    text-decoration: none;
+}
+
+.accordion h2{
+    border-bottom: 1px solid white;
+}
+
+.accordion button{
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+    padding: 10px 0px;
+}
+
+.accordion span{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.this-shit img{
+    height: 20px;
+}
+
+
+.accordion .card .card-body span{
+    padding: 7px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #bfbfbf;
+}
+
+.accordion .card .card-body span:nth-child(1){
+    color: white;
+}
+
+.socials{
+    color: white;
+    padding: 10px 0px;
+    background-color: black;
+}
+
+.socials .row{
+    padding: .75rem 1.25rem;
+}
+
+.socials span i{
+    font-size: 30px;
+    margin-top: 15px
+}
+
+.socials span img{
+    margin-top: 15px;
+}
+
+.footer{
+    padding: .75rem 1.25rem;
+    background-color: black;
+}
+
+.footer-container{
+    border-top: 1px solid #212121;
+}
+
+.footer-container span{
+    padding: 10px 25px 0px 0px;
+    font-size: 10px;
+    color: #bfbfbf;
+}
+
+.footer-text{
+    font-size: 10px;
+    color: #bfbfbf;
+    max-width: 500px;
+    margin-top: 20px;
 }
